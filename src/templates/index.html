@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Web Service</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌈 Welcome to Your Web Service</h1>
+        <p>Built with FastAPI and styled beautifully!</p>
+        <button onclick="showMsg()">Click Me</button>
+        <div id="msg"></div>
+    </div>
+
+    <script>
+        function showMsg() {
+            document.getElementById("msg").innerText = "✨ Hello from FastAPI!";
+        }
+    </script>
+</body>
+</html>
